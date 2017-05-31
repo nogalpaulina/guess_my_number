@@ -21,7 +21,7 @@ Array.from(document.getElementsByTagName('button')).forEach(function(element) {
 
 			if(userGuess == myNumber) {
 				element.className = "correct";
-				myAnswer.innerHTML = 'Yes! You guessed my number! Congratulations!';
+				myAnswer.innerHTML = 'Yes! You guessed my number!';
 				gameDone = true;
 			} else if (userGuess > myNumber) {
 				element.className = "wrong";

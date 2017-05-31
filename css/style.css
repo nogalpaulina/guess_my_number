@@ -1,12 +1,26 @@
 body {
   font-family: 'Raleway', sans-serif;
   margin: 20px 0 0 0;
+  background-image: url(../images/guess_nr_bg.jpg);
+  background-position: center center;
+  background-size: inherit;
+  background-repeat: no-repeat; 
 }
 
 .container {
   width: 90%;
   margin: 0 auto;
   min-height: 600px;
+  text-align: center;
+}
+
+#instructions {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 0px 4px 0px;
+  margin-bottom: 10px;
+  color: #d8d8d8;
+  max-width: 456px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -19,30 +33,32 @@ h2 {
 }
 
 button {
-  border: 2px solid #333;
+  border: none;
   font-size: 20px;
-  background-color: #2D2D2D;
-	color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+	color: #f2b632;
   cursor: pointer;
   text-transform: uppercase;
   transition: all 0.3s;
-	margin: 2px;
+	margin: 3px;
 	width: 40px;
 	height: 40px;
 	padding: 2px;
+  box-shadow: 2px 3px 5px #333;
+  padding-top: 5px;
 }
 
 .button:hover {
-  background-color: #525252;
-  color: #fff;
+  background-color: #f2b632;
+  color: #333;
 }
 
 .correct {
-	background-color: #15ad15;
+	background-color: #55a255;
 	color: #fff;
 }
 
 .wrong {
-	background-color: #ad1515;
+	background-color: #ffaf00;
 	color: #fff;
 }
